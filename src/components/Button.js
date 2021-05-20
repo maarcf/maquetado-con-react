@@ -10,9 +10,9 @@ const ButtonStyled = styled.button`
 `;
 
 
-const Button = ({ text }) => {
+const Button = ({ text, size }) => {
   return(
-    <ButtonStyled>
+    <ButtonStyled size={size}>
       { text }
     </ButtonStyled>
   )

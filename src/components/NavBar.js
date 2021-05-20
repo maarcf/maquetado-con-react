@@ -10,7 +10,7 @@ import Logo from '../assets/logo.png';
 const Nav = styled(Flex)`
   height: 80px;
   padding: ${props => props.theme.spaces.small} ${props => props.theme.spaces.large};
-  box-shadow: 0px 1px 0px #E5E9F2;
+  box-shadow: ${props => props.theme.boxShadow};
 
   @media (max-width:${props => props.theme.breakpoints.small}) {
     padding: ${props => props.theme.spaces.small};
@@ -29,7 +29,7 @@ const NavBar = () => {
 
       <Flex>
         <List />
-        <Button text="Buy now" />
+        <Button text="Buy now" size="14px" />
         <BurgerMenu />
       </Flex>
       

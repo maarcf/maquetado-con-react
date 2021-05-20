@@ -38,4 +38,6 @@ export const theme = {
     medium: "900px",
     large: "1300px",
   },
+
+  boxShadow: "0px 1px 0px #E5E9F2",
 };
