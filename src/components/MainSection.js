@@ -14,6 +14,7 @@ const MainStyled = styled(Flex)`
     ${props => props.theme.spaces.small}
     ${props => props.theme.spaces.medium};
     flex-direction: column;
+    overflow-X: hidden;
   };
 `;
 
@@ -52,7 +53,7 @@ const ImgContainer = styled(ImageContainer)`
   background-color: #D6B1FF;
   position: relative;
 
-  @media (max-width:1100px) {
+  @media (max-width:${props => props.theme.breakpoints.large}) {
     width: 350px;
     height: 350px;
   };
@@ -70,7 +71,7 @@ const ImgStyled = styled(ImageStyled)`
   right: -75px;
 
   @media (max-width:${props => props.theme.breakpoints.medium}) {
-    right: -130px;
+    right: -135px;
   };
 `;
 

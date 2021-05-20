@@ -3,9 +3,9 @@ import { theme } from './styles/theme';
 
 import NavBar from './components/NavBar';
 import MainSection from './components/MainSection';
+import ProductInfo from './components/ProductInfo';
 
 import './App.css';
-
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -29,14 +29,13 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-
-
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <NavBar />
       <MainSection />
+      <ProductInfo />
     </ThemeProvider>    
   );
 }

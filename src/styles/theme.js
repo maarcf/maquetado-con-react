@@ -36,7 +36,7 @@ export const theme = {
   breakpoints: {
     small: "650px",
     medium: "900px",
-    large: "1300px",
+    large: "1100px",
   },
 
   boxShadow: "0px 1px 0px #E5E9F2",
