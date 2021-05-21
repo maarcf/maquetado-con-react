@@ -7,8 +7,6 @@ import ProductInfo from './components/ProductInfo';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
-import './App.css';
-
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;

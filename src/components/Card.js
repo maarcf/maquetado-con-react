@@ -13,6 +13,10 @@ const CardStyled = styled(Flex)`
     width: 350px;
     margin: ${props => props.theme.spaces.medium} 0;
   };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    width: 220px;
+  };
 `;
 
 const CardTitle = styled.h3`

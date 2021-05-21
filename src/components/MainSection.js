@@ -23,7 +23,11 @@ const InfoContainer = styled(Flex)`
 
   @media (max-width:${props => props.theme.breakpoints.medium}) {
     width: 350px;
-    margin-bottom: ${props => props.theme.spaces.medium}
+    margin-bottom: ${props => props.theme.spaces.medium};
+  };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    width: 220px;
   };
 `;
 
@@ -33,6 +37,10 @@ const Title = styled.h1`
 
   @media (max-width:${props => props.theme.breakpoints.medium}) {
     font-size: ${props => props.theme.sizes.mobileH1};
+  };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    font-size: ${props => props.theme.sizes.mobileH2};
   };
 `;
 
@@ -63,6 +71,11 @@ const ImgContainer = styled(ImageContainer)`
     height: 580px;
     margin-bottom: ${props => props.theme.spaces.medium};
   };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    width: 290px;
+    height: 290px;
+  };
 `;
 
 const ImgStyled = styled(ImageStyled)`
@@ -72,6 +85,11 @@ const ImgStyled = styled(ImageStyled)`
 
   @media (max-width:${props => props.theme.breakpoints.medium}) {
     right: -135px;
+  };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    top: 22px;
+    right: -90px;
   };
 `;
 

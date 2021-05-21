@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-<<<<<<< HEAD
-
-const Footer = () => {
-  return(
-=======
 import SocialLinksContainer from './SocialLinksContainer';
 import { Flex, ImageContainer, ImageStyled } from './Commons';
 
@@ -22,6 +17,7 @@ const FooterStyled = styled(Flex)`
 
 const Text = styled.p`
   font-size: 14px;
+  text-align: center;
 
   @media (max-width:${props => props.theme.breakpoints.medium}) {
     order: 2;
@@ -51,7 +47,6 @@ const Footer = () => {
 
       <SocialLinksContainer />
     </FooterStyled>
->>>>>>> continue
   );
 };
 

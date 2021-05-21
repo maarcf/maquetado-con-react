@@ -15,8 +15,13 @@ const ContainerStyled = styled(Flex)`
   };
 
   @media (max-width:${props => props.theme.breakpoints.medium}) {
+    width: 350px;
     flex-direction: column;
     align-items: center;
+  };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    width: 250px;
   };
 `;
 

@@ -17,6 +17,10 @@ const Title = styled.h2`
   @media (max-width:${props => props.theme.breakpoints.medium}) {
     font-size: ${props => props.theme.sizes.mobileH2};
   };
+
+  @media (max-width:${props => props.theme.breakpoints.extraSmall}) {
+    font-size: 28px;
+  };
 `;
 
 const CtaButton = styled(ButtonStyled)`
