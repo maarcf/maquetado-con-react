@@ -6,6 +6,7 @@ const CtaStyled = styled(Flex)`
   color: ${props => props.theme.colors.textSecondary};
   background-color: ${props => props.theme.colors.bgPrimary};
   padding: ${props => props.theme.spaces.large};
+  border-bottom: 1px solid ${props => props.theme.colors.textSecondary};
 `;
 
 const Title = styled.h2`
