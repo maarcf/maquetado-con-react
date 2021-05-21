@@ -1,18 +1,11 @@
-import styled from 'styled-components';
 
-const ButtonStyled = styled.button`
-  color: ${props => props.theme.colors.textSecondary};
-  font-size: ${props => props.size || props.theme.sizes.mobileP};
-  padding: ${props => props.theme.spaces.extraSmall} ${props => props.theme.spaces.small};  
-  background-color: ${props => props.bgColor || props.theme.colors.bgPrimary};
-  border-radius: 6px;
-  border: none;  
-`;
+import { ButtonStyled } from './Commons';
 
-
-const Button = ({ text, size }) => {
+const Button = ({ text, size, textColor, bgColor }) => {
   return(
-    <ButtonStyled size={size}>
+    <ButtonStyled size={size}
+      textColor={textColor}
+      bgColor={bgColor}>
       { text }
     </ButtonStyled>
   )
