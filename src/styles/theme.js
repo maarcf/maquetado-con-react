@@ -1,17 +1,13 @@
 export const theme = {
   font: {
     family: 'Inter',
-    weight: {
-      bold: "800",
-      semiBold: "600",
-    },
   },
 
   colors: {
     bgPrimary: "#8C30F5",
     textPrimary: "#18191F",
     textSecondary: "#FFFFFF",
-    footerBackground: "#0B0D17",
+    footerBg: "#0B0D17",
     footerText: "#D9DBE1"
   },
 
