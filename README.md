@@ -10,9 +10,9 @@ This project was built with React and Styled Components. It's a visual page, it 
 
 ### 📱 Screenshot
 
-![project](https://github.com/maarcf/maquetado-con-react/blob/main/project.jpg)
+![project](https://github.com/maarcf/maquetado-con-react/blob/main/src/assets/project.png)
 
-## [See the project]()
+## [See the project](https://landifyapp-bymari.netlify.app) :sparkles:
 
 ### Author
 - [![Linkedin: Mariana Cairo](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mariana-cairo/)](https://www.linkedin.com/in/mariana-cairo/)
